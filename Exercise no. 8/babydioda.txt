@@ -1,0 +1,124 @@
+java -jar UDP_Server.jar -file babydioda.txt -port 65008 -echo on
+
+________________________________________________
+FLAG 0x000 - no flags are set
+==========
+NUESTATS: "RADIO","Signal power",-347
+NUESTATS: "RADIO","Total power",-259
+NUESTATS: "RADIO","TX power",-460
+NUESTATS: "RADIO","TX time",443
+NUESTATS: "RADIO","RX time",3964
+NUESTATS: "RADIO","Cell ID",1246242
+NUESTATS: "RADIO","ECL",0
+NUESTATS: "RADIO","SNR",274
+NUESTATS: "RADIO","EARFCN",6447
+NUESTATS: "RADIO","PCI",147
+NUESTATS: "RADIO","RSRQ",-108
+
+FLAG 0x200 - release indicator. Indicate release after next message
+
+==========
+NUESTATS: "RADIO","Signal power",-333
+NUESTATS: "RADIO","Total power",-276
+NUESTATS: "RADIO","TX power",-470
+NUESTATS: "RADIO","TX time",425
+NUESTATS: "RADIO","RX time",3987
+NUESTATS: "RADIO","Cell ID",1246242
+NUESTATS: "RADIO","ECL",0
+NUESTATS: "RADIO","SNR",299
+NUESTATS: "RADIO","EARFCN",6447
+NUESTATS: "RADIO","PCI",147
+NUESTATS: "RADIO","RSRQ",-108
+
+________________________________________________
+VELIKOSTI ZPRÁV
+
+12 bytes
+===============
+AT+NUESTATS="RADIO"
+NUESTATS: "RADIO","Signal power",-344
+NUESTATS: "RADIO","Total power",-287
+NUESTATS: "RADIO","TX power",-480
+NUESTATS: "RADIO","TX time",361
+NUESTATS: "RADIO","RX time",4224
+NUESTATS: "RADIO","Cell ID",1246242
+NUESTATS: "RADIO","ECL",0
+NUESTATS: "RADIO","SNR",300
+NUESTATS: "RADIO","EARFCN",6447
+NUESTATS: "RADIO","PCI",147
+NUESTATS: "RADIO","RSRQ",-108¨
+
+Time from fun:  3.9190895557403564 [s]
+Time from fun ping:  0.9156498908996582 [s]
+
+64 bytes
+===============
+AT+NUESTATS="RADIO"
+NUESTATS: "RADIO","Signal power",-361
+NUESTATS: "RADIO","Total power",-304
+NUESTATS: "RADIO","TX power",-440
+NUESTATS: "RADIO","TX time",417
+NUESTATS: "RADIO","RX time",4052
+NUESTATS: "RADIO","Cell ID",1246242
+NUESTATS: "RADIO","ECL",0
+NUESTATS: "RADIO","SNR",300
+NUESTATS: "RADIO","EARFCN",6447
+NUESTATS: "RADIO","PCI",147
+NUESTATS: "RADIO","RSRQ",-108
+
+Time from fun:  4.142731189727783 [s]
+Time from fun ping:  1.3736543655395508 [s]
+
+128bytes
+===============
+AT+NUESTATS="RADIO"
+NUESTATS: "RADIO","Signal power",-349
+NUESTATS: "RADIO","Total power",-260
+NUESTATS: "RADIO","TX power",-460
+NUESTATS: "RADIO","TX time",593
+NUESTATS: "RADIO","RX time",5992
+NUESTATS: "RADIO","Cell ID",1246242
+NUESTATS: "RADIO","ECL",0
+NUESTATS: "RADIO","SNR",284
+NUESTATS: "RADIO","EARFCN",6447
+NUESTATS: "RADIO","PCI",147
+NUESTATS: "RADIO","RSRQ",-108
+
+Time from fun:  10.675911903381348 [s]
+Time from fun ping:  1.6909537315368652 [s]
+
+256 bytes
+===============
+AT+NUESTATS="RADIO"
+NUESTATS: "RADIO","Signal power",-309
+NUESTATS: "RADIO","Total power",-252
+NUESTATS: "RADIO","TX power",-500
+NUESTATS: "RADIO","TX time",425
+NUESTATS: "RADIO","RX time",5283
+NUESTATS: "RADIO","Cell ID",1246242
+NUESTATS: "RADIO","ECL",0
+NUESTATS: "RADIO","SNR",3 
+NUESTATS: "RADIO","EARFCN",6447
+NUESTATS: "RADIO","PCI",147
+NUESTATS: "RADIO","RSRQ",-108
+
+Time from fun:  3.87211537361145 [s]
+Time from fun ping:  1.8667991161346436 [s]
+
+450 bytes
+===============
+AT+NUESTATS="RADIO"
+NUESTATS: "RADIO","Signal power",-322
+NUESTATS: "RADIO","Total power",-265
+NUESTATS: "RADIO","TX power",-480
+NUESTATS: "RADIO","TX time",364
+NUESTATS: "RADIO","RX time",5678
+NUESTATS: "RADIO","Cell ID",1246242
+NUESTATS: "RADIO","ECL",0
+NUESTATS: "RADIO","SNR",300
+NUESTATS: "RADIO","EARFCN",6447
+NUESTATS: "RADIO","PCI",147
+NUESTATS: "RADIO","RSRQ",-108
+
+Time from fun:  3.5843114852905273 [s]
+Time from fun ping:  2.13592267036438 [s]
