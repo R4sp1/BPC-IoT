@@ -1,0 +1,33 @@
+{
+  "name": "MQTT_profile",
+  "description": "",
+  "image": null,
+  "type": "DEFAULT",
+  "transportType": "MQTT",
+  "provisionType": "DISABLED",
+  "defaultRuleChainId": null,
+  "defaultDashboardId": null,
+  "defaultQueueName": "",
+  "profileData": {
+    "configuration": {
+      "type": "DEFAULT"
+    },
+    "transportConfiguration": {
+      "type": "MQTT",
+      "deviceTelemetryTopic": "v1/devices/me/telemetry",
+      "deviceAttributesTopic": "v1/devices/me/attributes",
+      "transportPayloadTypeConfiguration": {
+        "transportPayloadType": "JSON"
+      }
+    },
+    "provisionConfiguration": {
+      "type": "DISABLED",
+      "provisionDeviceSecret": null
+    },
+    "alarms": null
+  },
+  "provisionDeviceKey": null,
+  "firmwareId": null,
+  "softwareId": null,
+  "default": false
+}
