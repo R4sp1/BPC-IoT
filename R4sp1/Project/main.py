@@ -57,11 +57,6 @@ lora.set_port(55)
 lora.set_counters(cycle, cycle)
 time.sleep(2)
 
-# lora.send_ascii("start")
-# time.sleep(10)
-# lora.check_link()
-# time.sleep(10)
-
 print("Setup - End")
 
 
