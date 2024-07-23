@@ -40,11 +40,7 @@ lora.set_counters(cycle, cycle)
 time.sleep(5)
 lora.send_ascii("A")
 time.sleep(15)
-#print(lora.check_link())
 
-
-# lora.get_rx_delay()
-# lora.set_rx_delay('RX1', 1000)
 
 print("Setup - End")
 
