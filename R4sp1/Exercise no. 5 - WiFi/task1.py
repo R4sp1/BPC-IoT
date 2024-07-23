@@ -38,6 +38,3 @@ while True:
         LED16.value(0)	#LED OFF
     else:
         LED16.value(1)
-    
-    
-# 
