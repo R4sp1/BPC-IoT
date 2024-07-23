@@ -25,18 +25,6 @@ print("Size: {} MB".format(sd.sectors/2048))
 print(os.listdir("/SD"))
 print(os.listdir())
 
-"""
-# Create a file in write mode and write something
-with open("/sd/sdtest.txt", "w") as file:
-    file.write("Hello World!\r\n")
-    file.write("This is a test\r\n")
-"""
-"""
-# Create a file in write mode and write something
-with open("/SD/GPS_test.txt", "w") as file:
-    file.write("test lat:\r\n")
-    file.write("test lon:\r\n")
-"""
 # Open the file in read mode and read from it
 with open("/SD/GPS_test.txt", "r") as file:
     data = file.read()
