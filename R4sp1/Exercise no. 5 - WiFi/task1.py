@@ -23,9 +23,6 @@ sensor_timer = 5000
 
 led_timer = 250
 
-#while True:
-    #
-
 
 while True:
     
